@@ -40,7 +40,6 @@ my-app
      <li class="expanded"><a href="project-reports.html" title="Project Reports">Project Reports</a>
       <ul>
        <li class="none"><a href="xref/index.html" title="Source Xref">Source Xref</a></li>
-       <li class="none"><a href="xref-test/index.html" title="Test Source Xref">Test Source Xref</a></li>
        <li class="none"><a href="surefire-report.html" title="Surefire Report">Surefire Report</a></li>
        <li class="none"><strong>Checkstyle</strong></li>
        <li class="none"><a href="spotbugs.html" title="SpotBugs">SpotBugs</a></li>
@@ -69,7 +68,7 @@ my-app
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>10</td></tr></table></div>
+<td>11</td></tr></table></div>
 <div class="section">
 <h2><a name="Files"></a>Files</h2>
 <table border="0" class="bodyTable">
@@ -82,7 +81,7 @@ my-app
 <td><a href="#com.mycompany.app.App.java">com/mycompany/app/App.java</a></td>
 <td>0</td>
 <td>0</td>
-<td>10</td></tr></table></div>
+<td>11</td></tr></table></div>
 <div class="section">
 <h2><a name="Rules"></a>Rules</h2>
 <table border="0" class="bodyTable">
@@ -122,6 +121,16 @@ my-app
 <td>1</td>
 <td><img src="images/icon_error_sml.gif" alt="" />&#160;Error</td></tr>
 <tr class="b">
+<td>regexp</td>
+<td><a class="externalLink" href="http://checkstyle.sourceforge.net/config_regexp.html#RegexpSingleline">RegexpSingleline</a>
+<ul>
+<li>format: <tt>&quot;\s+$&quot;</tt></li>
+<li>maximum: <tt>&quot;0&quot;</tt></li>
+<li>message: <tt>&quot;Line has trailing spaces.&quot;</tt></li>
+<li>minimum: <tt>&quot;0&quot;</tt></li></ul></td>
+<td>1</td>
+<td><img src="images/icon_error_sml.gif" alt="" />&#160;Error</td></tr>
+<tr class="a">
 <td>whitespace</td>
 <td><a class="externalLink" href="http://checkstyle.sourceforge.net/config_whitespace.html#WhitespaceAround">WhitespaceAround</a></td>
 <td>2</td>
@@ -131,18 +140,24 @@ my-app
 <div class="section">
 <h3 id="com.mycompany.app.App.java">com/mycompany/app/App.java</h3>
 <table border="0" class="bodyTable">
-<tr class="a">
+<tr class="b">
 <th>Severity</th>
 <th>Category</th>
 <th>Rule</th>
 <th>Message</th>
 <th>Line</th></tr>
-<tr class="b">
+<tr class="a">
 <td><img src="images/icon_error_sml.gif" alt="" />&#160;Error</td>
 <td>javadoc</td>
 <td>JavadocPackage</td>
 <td>Missing package-info.java file.</td>
 <td></td></tr>
+<tr class="b">
+<td><img src="images/icon_error_sml.gif" alt="" />&#160;Error</td>
+<td>regexp</td>
+<td>RegexpSingleline</td>
+<td>Line has trailing spaces.</td>
+<td><a href="./xref/com/mycompany/app/App.html#L6">6</a></td></tr>
 <tr class="a">
 <td><img src="images/icon_error_sml.gif" alt="" />&#160;Error</td>
 <td>blocks</td>
