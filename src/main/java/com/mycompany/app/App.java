@@ -28,7 +28,7 @@ public class App
      * Récupère la constante du message à afficher
      * @return Le message Hello World!
      */
-    private final String getMessage() {
+    private String getMessage() {
         return message;
     }
 }
