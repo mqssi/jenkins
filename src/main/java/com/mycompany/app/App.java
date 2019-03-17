@@ -9,7 +9,7 @@ public class App
 	/**
 	 * Constante du message Hello World!
 	 */
-    private final String message = "Hello World!";
+    private String message = "Hello World!";
 
     /**
      * Constructeur par défaut
