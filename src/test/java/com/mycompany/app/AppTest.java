@@ -8,18 +8,27 @@ import org.junit.After;
 import static org.junit.Assert.*;
 
 /**
- * Unit test for simple App.
+ * Classe de tests du projet de démo Maven/Jenkins
+ * @author MM Formations 
  */
 public class AppTest
 {
-
+	/**
+	 * Flux de sortie des messages de la classe de tests
+	 */
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
 
+    /**
+     * Instancie le flux de sortie avant l'exécution des tests
+     */
     @Before
     public void setUpStreams() {
         System.setOut(new PrintStream(outContent)); 
     }
 
+    /**
+     * Constructeur par défaut
+     */
     @Test
     public void testAppConstructor() {
         try {
@@ -28,7 +37,10 @@ public class AppTest
             fail("Construction failed.");
         }
     }
-
+    
+    /**
+     * 
+     */
     @Test
     public void testAppMain()
     {
@@ -40,6 +52,9 @@ public class AppTest
         }
     }
 
+    /**
+     * Désalloue le flux de sortie après l'exécution des tests
+     */
     @After
     public void cleanUpStreams() {
         System.setOut(null);
