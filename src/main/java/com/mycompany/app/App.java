@@ -9,7 +9,7 @@ public class App
 	/**
 	 * Constante du message Hello World!
 	 */
-    private static String message = "Hello World!";
+    private final static String message = "Hello World!";
 
     /**
      * Constructeur par défaut
@@ -28,7 +28,7 @@ public class App
      * Récupère la constante du message à afficher
      * @return Le message Hello World!
      */
-    private static String getMessage() {
+    private final String getMessage() {
         return message;
     }
 }
