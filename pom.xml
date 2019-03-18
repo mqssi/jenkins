@@ -92,7 +92,7 @@
 				</executions>
 			</plugin>
 			<plugin>
-				<groupId>com.atlassian.maven.plugins</groupId>
+				<groupId>org.openclover</groupId>
 				<artifactId>clover-maven-plugin</artifactId>
 				<version>4.3.1</version>
 				<configuration>
