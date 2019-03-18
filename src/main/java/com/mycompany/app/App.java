@@ -9,6 +9,7 @@ public class App
 	/**
 	 * Constante du message Hello World!
 	 */
+	// FIXME Doesn't respect code rules
     private final static String message = "Hello World!";
 
     /**
@@ -28,6 +29,7 @@ public class App
      * Récupère la constante du message à afficher
      * @return Le message Hello World!
      */
+    // TODO remove static
     private static final String getMessage() {
         return message;
     }
