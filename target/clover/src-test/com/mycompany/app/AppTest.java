@@ -12,7 +12,7 @@ import static org.junit.Assert.*;
  * @author MM Formations 
  */
 public class AppTest
-{static class __CLR4_3_155jtdoev6c{public static com_atlassian_clover.CoverageRecorder R;public static com_atlassian_clover.CloverProfile[] profiles = { };@java.lang.SuppressWarnings("unchecked") public static <I, T extends I> I lambdaInc(final int i,final T l,final int si){java.lang.reflect.InvocationHandler h=new java.lang.reflect.InvocationHandler(){public java.lang.Object invoke(java.lang.Object p,java.lang.reflect.Method m,java.lang.Object[] a) throws Throwable{R.inc(i);R.inc(si);try{return m.invoke(l,a);}catch(java.lang.reflect.InvocationTargetException e){throw e.getCause()!=null?e.getCause():new RuntimeException("Clover failed to invoke instrumented lambda",e);}}};return (I)java.lang.reflect.Proxy.newProxyInstance(l.getClass().getClassLoader(),l.getClass().getInterfaces(),h);}static{com_atlassian_clover.CoverageRecorder _R=null;try{com_atlassian_clover.CloverVersionInfo.An_old_version_of_clover_is_on_your_compilation_classpath___Please_remove___Required_version_is___4_3_1();if(20180921211537623L!=com_atlassian_clover.CloverVersionInfo.getBuildStamp()){com_atlassian_clover.Clover.l("[CLOVER] WARNING: The Clover version used in instrumentation does not match the runtime version. You need to run instrumented classes against the same version of Clover that you instrumented with.");com_atlassian_clover.Clover.l("[CLOVER] WARNING: Instr=4.3.1#20180921211537623,Runtime="+com_atlassian_clover.CloverVersionInfo.getReleaseNum()+"#"+com_atlassian_clover.CloverVersionInfo.getBuildStamp());}R=com_atlassian_clover.Clover.getNullRecorder();_R=com_atlassian_clover.Clover.getNullRecorder();_R=com_atlassian_clover.Clover.getRecorder("\u0044\u003a\u005c\u005c\u0064\u0065\u0076\u005c\u005c\u0077\u006f\u0072\u006b\u0073\u0070\u0061\u0063\u0065\u0073\u002d\u0065\u0063\u006c\u0069\u0070\u0073\u0065\u005c\u005c\u0045\u0047\u0033\u005f\u0049\u0043\u005c\u005c\u004d\u0061\u0076\u0065\u006e\u0044\u0065\u006d\u006f\u005c\u005c\u0074\u0061\u0072\u0067\u0065\u0074\u002f\u0063\u006c\u006f\u0076\u0065\u0072\u002f\u0063\u006c\u006f\u0076\u0065\u0072\u002e\u0064\u0062",1552872870228L,8589935092L,18,profiles,new java.lang.String[]{"clover.distributed.coverage",null});}catch(java.lang.SecurityException e){java.lang.System.err.println("[CLOVER] FATAL ERROR: Clover could not be initialised because it has insufficient security privileges. Please consult the Clover documentation on the security policy file changes required. ("+e.getClass()+":"+e.getMessage()+")");}catch(java.lang.NoClassDefFoundError e){java.lang.System.err.println("[CLOVER] FATAL ERROR: Clover could not be initialised. Are you sure you have Clover in the runtime classpath? ("+e.getClass()+":"+e.getMessage()+")");}catch(java.lang.Throwable t){java.lang.System.err.println("[CLOVER] FATAL ERROR: Clover could not be initialised because of an unexpected error. ("+t.getClass()+":"+t.getMessage()+")");}R=_R;}}public static final com_atlassian_clover.TestNameSniffer __CLR4_3_1_TEST_NAME_SNIFFER=com_atlassian_clover.TestNameSniffer.NULL_INSTANCE;
+{static class __CLR4_3_155kmqcj1hy{public static com_atlassian_clover.CoverageRecorder R;public static com_atlassian_clover.CloverProfile[] profiles = { };@java.lang.SuppressWarnings("unchecked") public static <I, T extends I> I lambdaInc(final int i,final T l,final int si){java.lang.reflect.InvocationHandler h=new java.lang.reflect.InvocationHandler(){public java.lang.Object invoke(java.lang.Object p,java.lang.reflect.Method m,java.lang.Object[] a) throws Throwable{R.inc(i);R.inc(si);try{return m.invoke(l,a);}catch(java.lang.reflect.InvocationTargetException e){throw e.getCause()!=null?e.getCause():new RuntimeException("Clover failed to invoke instrumented lambda",e);}}};return (I)java.lang.reflect.Proxy.newProxyInstance(l.getClass().getClassLoader(),l.getClass().getInterfaces(),h);}static{com_atlassian_clover.CoverageRecorder _R=null;try{com_atlassian_clover.CloverVersionInfo.An_old_version_of_clover_is_on_your_compilation_classpath___Please_remove___Required_version_is___4_3_1();if(20180921211537623L!=com_atlassian_clover.CloverVersionInfo.getBuildStamp()){com_atlassian_clover.Clover.l("[CLOVER] WARNING: The Clover version used in instrumentation does not match the runtime version. You need to run instrumented classes against the same version of Clover that you instrumented with.");com_atlassian_clover.Clover.l("[CLOVER] WARNING: Instr=4.3.1#20180921211537623,Runtime="+com_atlassian_clover.CloverVersionInfo.getReleaseNum()+"#"+com_atlassian_clover.CloverVersionInfo.getBuildStamp());}R=com_atlassian_clover.Clover.getNullRecorder();_R=com_atlassian_clover.Clover.getNullRecorder();_R=com_atlassian_clover.Clover.getRecorder("\u004d\u003a\u005c\u005c\u0055\u0073\u0065\u0072\u0073\u005c\u005c\u004d\u0061\u0073\u0073\u0069\u005c\u005c\u0044\u0065\u0073\u006b\u0074\u006f\u0070\u005c\u005c\u0057\u006f\u0072\u006b\u005c\u005c\u0042\u0033\u005c\u005c\u004d\u0055\u004c\u004f\u0054\u005c\u005c\u0043\u004f\u0055\u0052\u0053\u005c\u005c\u004d\u0061\u0076\u0065\u006e\u0044\u0065\u006d\u006f\u005f\u0045\u0063\u006c\u0069\u0070\u0073\u0065\u005c\u005c\u0074\u0061\u0072\u0067\u0065\u0074\u002f\u0063\u006c\u006f\u0076\u0065\u0072\u002f\u0063\u006c\u006f\u0076\u0065\u0072\u002e\u0064\u0062",1616765657656L,8589935092L,18,profiles,new java.lang.String[]{"clover.distributed.coverage",null});}catch(java.lang.SecurityException e){java.lang.System.err.println("[CLOVER] FATAL ERROR: Clover could not be initialised because it has insufficient security privileges. Please consult the Clover documentation on the security policy file changes required. ("+e.getClass()+":"+e.getMessage()+")");}catch(java.lang.NoClassDefFoundError e){java.lang.System.err.println("[CLOVER] FATAL ERROR: Clover could not be initialised. Are you sure you have Clover in the runtime classpath? ("+e.getClass()+":"+e.getMessage()+")");}catch(java.lang.Throwable t){java.lang.System.err.println("[CLOVER] FATAL ERROR: Clover could not be initialised because of an unexpected error. ("+t.getClass()+":"+t.getMessage()+")");}R=_R;}}public static final com_atlassian_clover.TestNameSniffer __CLR4_3_1_TEST_NAME_SNIFFER=com_atlassian_clover.TestNameSniffer.NULL_INSTANCE;
 	/**
 	 * Flux de sortie des messages de la classe de tests
 	 */
@@ -22,41 +22,41 @@ public class AppTest
      * Instancie le flux de sortie avant l'ex\u00e9cution des tests
      */
     @Before
-    public void setUpStreams() {try{__CLR4_3_155jtdoev6c.R.inc(5);
-        __CLR4_3_155jtdoev6c.R.inc(6);System.setOut(new PrintStream(outContent)); 
-    }finally{__CLR4_3_155jtdoev6c.R.flushNeeded();}}
+    public void setUpStreams() {try{__CLR4_3_155kmqcj1hy.R.inc(5);
+        __CLR4_3_155kmqcj1hy.R.inc(6);System.setOut(new PrintStream(outContent)); 
+    }finally{__CLR4_3_155kmqcj1hy.R.flushNeeded();}}
 
     /**
      * Constructeur par d\u00e9faut
      */
     @Test
-    public void testAppConstructor() {__CLR4_3_155jtdoev6c.R.globalSliceStart(getClass().getName(),7);int $CLV_p$=0;java.lang.Throwable $CLV_t$=null;try{__CLR4_3_1ll70zy7();$CLV_p$=1;}catch(java.lang.Throwable $CLV_t2$){if($CLV_p$==0&&$CLV_t$==null){$CLV_t$=$CLV_t2$;}__CLR4_3_155jtdoev6c.R.rethrow($CLV_t2$);}finally{__CLR4_3_155jtdoev6c.R.globalSliceEnd(getClass().getName(),"com.mycompany.app.AppTest.testAppConstructor",__CLR4_3_1_TEST_NAME_SNIFFER.getTestName(),7,$CLV_p$,$CLV_t$);}}private void  __CLR4_3_1ll70zy7(){try{__CLR4_3_155jtdoev6c.R.inc(7);
-        __CLR4_3_155jtdoev6c.R.inc(8);try {
-            __CLR4_3_155jtdoev6c.R.inc(9);new App();
+    public void testAppConstructor() {__CLR4_3_155kmqcj1hy.R.globalSliceStart(getClass().getName(),7);int $CLV_p$=0;java.lang.Throwable $CLV_t$=null;try{__CLR4_3_1ll70zy7();$CLV_p$=1;}catch(java.lang.Throwable $CLV_t2$){if($CLV_p$==0&&$CLV_t$==null){$CLV_t$=$CLV_t2$;}__CLR4_3_155kmqcj1hy.R.rethrow($CLV_t2$);}finally{__CLR4_3_155kmqcj1hy.R.globalSliceEnd(getClass().getName(),"com.mycompany.app.AppTest.testAppConstructor",__CLR4_3_1_TEST_NAME_SNIFFER.getTestName(),7,$CLV_p$,$CLV_t$);}}private void  __CLR4_3_1ll70zy7(){try{__CLR4_3_155kmqcj1hy.R.inc(7);
+        __CLR4_3_155kmqcj1hy.R.inc(8);try {
+            __CLR4_3_155kmqcj1hy.R.inc(9);new App();
         } catch (Exception e) {
-            __CLR4_3_155jtdoev6c.R.inc(10);fail("Construction failed.");
+            __CLR4_3_155kmqcj1hy.R.inc(10);fail("Construction failed.");
         }
-    }finally{__CLR4_3_155jtdoev6c.R.flushNeeded();}}
+    }finally{__CLR4_3_155kmqcj1hy.R.flushNeeded();}}
     
     /**
      * 
      */
     @Test
     public void testAppMain()
-    {__CLR4_3_155jtdoev6c.R.globalSliceStart(getClass().getName(),11);int $CLV_p$=0;java.lang.Throwable $CLV_t$=null;try{__CLR4_3_1a2q5e7b();$CLV_p$=1;}catch(java.lang.Throwable $CLV_t2$){if($CLV_p$==0&&$CLV_t$==null){$CLV_t$=$CLV_t2$;}__CLR4_3_155jtdoev6c.R.rethrow($CLV_t2$);}finally{__CLR4_3_155jtdoev6c.R.globalSliceEnd(getClass().getName(),"com.mycompany.app.AppTest.testAppMain",__CLR4_3_1_TEST_NAME_SNIFFER.getTestName(),11,$CLV_p$,$CLV_t$);}}private void  __CLR4_3_1a2q5e7b(){try{__CLR4_3_155jtdoev6c.R.inc(11);
-        __CLR4_3_155jtdoev6c.R.inc(12);App.main(null);
-        __CLR4_3_155jtdoev6c.R.inc(13);try {
-            __CLR4_3_155jtdoev6c.R.inc(14);assertEquals("Hello World!" + System.getProperty("line.separator"), outContent.toString());
+    {__CLR4_3_155kmqcj1hy.R.globalSliceStart(getClass().getName(),11);int $CLV_p$=0;java.lang.Throwable $CLV_t$=null;try{__CLR4_3_1a2q5e7b();$CLV_p$=1;}catch(java.lang.Throwable $CLV_t2$){if($CLV_p$==0&&$CLV_t$==null){$CLV_t$=$CLV_t2$;}__CLR4_3_155kmqcj1hy.R.rethrow($CLV_t2$);}finally{__CLR4_3_155kmqcj1hy.R.globalSliceEnd(getClass().getName(),"com.mycompany.app.AppTest.testAppMain",__CLR4_3_1_TEST_NAME_SNIFFER.getTestName(),11,$CLV_p$,$CLV_t$);}}private void  __CLR4_3_1a2q5e7b(){try{__CLR4_3_155kmqcj1hy.R.inc(11);
+        __CLR4_3_155kmqcj1hy.R.inc(12);App.main(null);
+        __CLR4_3_155kmqcj1hy.R.inc(13);try {
+            __CLR4_3_155kmqcj1hy.R.inc(14);assertEquals("Hello World!" + System.getProperty("line.separator"), outContent.toString());
         } catch (AssertionError e) {
-            __CLR4_3_155jtdoev6c.R.inc(15);fail("\"message\" is not \"Hello World!\"");
+            __CLR4_3_155kmqcj1hy.R.inc(15);fail("\"message\" is not \"Hello World!\"");
         }
-    }finally{__CLR4_3_155jtdoev6c.R.flushNeeded();}}
+    }finally{__CLR4_3_155kmqcj1hy.R.flushNeeded();}}
 
     /**
      * D\u00e9salloue le flux de sortie apr\u00e8s l'ex\u00e9cution des tests
      */
     @After
-    public void cleanUpStreams() {try{__CLR4_3_155jtdoev6c.R.inc(16);
-        __CLR4_3_155jtdoev6c.R.inc(17);System.setOut(null);
-    }finally{__CLR4_3_155jtdoev6c.R.flushNeeded();}}
+    public void cleanUpStreams() {try{__CLR4_3_155kmqcj1hy.R.inc(16);
+        __CLR4_3_155kmqcj1hy.R.inc(17);System.setOut(null);
+    }finally{__CLR4_3_155kmqcj1hy.R.flushNeeded();}}
 }
